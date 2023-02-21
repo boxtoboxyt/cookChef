@@ -1,7 +1,19 @@
+import styles from './Content.module.scss';
 
 function Content() {
   return (
-    <div>Content</div>
+    <div className="flex-fill container p-20">
+      <h1 className="my-30">Dévouvrez nos nouvelles recettes</h1>
+      <div className={`card p-20 ${styles.contentCard}`}>
+      <div className={styles.grid}>
+        <div className={styles.elem}>1</div>
+        <div className={styles.elem}>1</div>
+        <div className={styles.elem}>1</div>
+        <div className={styles.elem}>1</div>
+        <div className={styles.elem}>1</div>
+      </div>
+      </div>
+    </div>
   )
 }
 

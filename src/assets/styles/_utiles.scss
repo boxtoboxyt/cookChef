@@ -17,6 +17,14 @@ padding: 10px;
 margin: 5px;
 }
 
+.mr-5 {
+    margin-right: 5px;
+}
+
+.mr-15 {
+    margin-right: 15px;
+}
+
 .m-10 {
     margin: 10px;
 
@@ -34,4 +42,15 @@ margin: 5px;
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.my-30 {
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+    width: 100%;
 }
